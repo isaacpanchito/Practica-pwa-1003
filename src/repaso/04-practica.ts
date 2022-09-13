@@ -28,3 +28,4 @@ const pruebaAlumno:utlAlumno={
 
 console.log(pruebaAlumno.nombre, pruebaAlumno.edad);
 console.log('calle: ', pruebaAlumno.direccion.calle, 'pais: ',pruebaAlumno.direccion.pais,' estado: ',pruebaAlumno.direccion.estado, ' numero: ',pruebaAlumno.direccion.numero);
+console.log ('new branch');
