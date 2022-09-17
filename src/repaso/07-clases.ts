@@ -42,3 +42,40 @@ class Dado{
 let dado1 = new Dado();
 dado1.tirar();
 dado1.imprimir();
+
+/*
+class tabla{
+    private numero:number;
+    public temp:number;
+
+    setNumero(a:number){
+    this.numero=a;
+    }
+    
+    getNumero():number{
+    return this.numero;
+    }
+
+    calcular():void{
+        for(let i=1;i<11;i++){
+            console.log(`${this.numero} x ${i} = ${this.numero*i}`);
+        }
+
+        
+        let s:number=1;
+        while(s<11){
+            console.log(`${this.numero} x ${s} = ${this.numero*s}`);
+            ++s;
+        }
+        
+    }
+}
+
+let tabla1=new tabla();
+
+tabla1.setNumero(7);
+console.log('Variable privada: '+tabla1.getNumero());
+tabla1.temp=6;
+console.log('Variable publica: '+tabla1.temp);
+tabla1.calcular();
+*/

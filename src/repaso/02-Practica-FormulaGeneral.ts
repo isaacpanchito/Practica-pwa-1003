@@ -1,5 +1,5 @@
 import { NumericLiteral } from "typescript";
-import { calcularIVA } from "./repaso/05-desestructura-funciones";
+import { calcularIVA } from "./05-desestructura-funciones";
 
 class Formula{
 
@@ -10,30 +10,30 @@ class Formula{
     private resmas:number;
 
 
-    private CalcularMenos(){
+    private CalcularMenos():void{
         this.res=(-this.b-Math.sqrt(Math.exp(this.b)-4*this.a*this.c))/2*this.a;
     }
-    private CalcularMas(){
+    private CalcularMas():void{
         this.resmas=(-this.b+Math.sqrt(Math.exp(this.b)-4*this.a*this.c))/2*this.a;
     }
 
-    public EnterMenos(){
+    public EnterMenos():void{
         this.CalcularMenos();
     }
-    public EnterMas(){
+    public EnterMas():void{
         this.CalcularMas();
     }
     
-    setnumber(uno:number, dos:number,tres:number){
+    setnumber(uno:number, dos:number,tres:number):void{
         this.a=uno;
         this.b=dos;
         this.c=tres;
     }
 
-    public Imprimirmenos(){
+    public Imprimirmenos():void{
         console.log(this.res);
     }
-    public IprimirMas(){
+    public IprimirMas():void{
         console.log(this.resmas);
     }
 
